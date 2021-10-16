@@ -33,22 +33,84 @@
   <body>
     <!-- HEADER -->
     <header class="container-fluid fixed-top">
-      <!-- NAVBAR -->
-      <nav class="navbar">
-        <div class="container-fluid">
-          <div class="row g-0">
-            <div class="col-12 justify-content-center">
-              <a class="navbar-brand" href="#">
-                <img src="/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
-                Bootstrap
-              </a>
-            </div>
-          </div>
-          <div class="row">
+      <div class="row">
+        <div class="col-12">
 
-          </div>
         </div>
-      </nav>
+      </div>
+      <div class="row">
+        <div class="col-9">
+          <!-- NAVBAR -->
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid navbar-style">
+            <!-- Dropdown menu btn for mobile devices -->
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse d-lg-flex justify-content-end nav-menu" id="navbarNav">
+                <!-- Navbar menu -->
+                <ul id="navbar-menu-items" class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cafe</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Dogs</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <!--END OF NAVBAR-->
+        </div>
+        <!--USER AND BAG NAVIGATION-->
+        <div class="col-3">
+          <ul class="list-inline list-unstyled text-center py-lg-0">
+            <!-- User menu -->
+            <li class="list-inline-item dropdown">
+              <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <div class="text-center">
+                  <div>
+                    <i class="fas fa-user fa-lg"></i>
+                    <p class="my-0">My Account</p>
+                  </div>
+                </div>
+              </a>
+            <!-- User menu dropdown -->
+              <div class="dropdown-menu border-0" aria-labelledby="user-options">
+                <!-- TO ADD: User dropdown menu -->
+              </div>
+            </li>
+            <!-- Shopping bag -->
+            <li class="list-inline-item">
+              <a href="#">
+                <div class="tet-center">
+                  <div>
+                    <i class="fas fa-shopping-bag fa-lg"></i>
+                    <p class="my-0">
+                      <!--To ADD: shopping bag total-->
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!--USER AND BAG NAVIGATION END-->
+      </div>
 
     </header>
 
