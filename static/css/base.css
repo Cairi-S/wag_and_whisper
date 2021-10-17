@@ -8,28 +8,43 @@ main {
     background-color: #F6F2EA;
 }
 
-header {
+header,
+footer {
     background-color: #6f1d1b;
     height: 200px;
     padding: 0 0 0 0;
 }
 
-/* ------------------- NAVBAR --- */
+/* ------------------- FONT FAMILIES --- */
 
-#logo {
-    padding-top: 10px;
-}
-
-#navbar-menu-items a{
+#navbar-menu-items a,
+.footer-text p,
+.page-header h1  {
     font-family: 'Raleway', sans-serif;
-    color: #ffe6a7;
-    font-size: 1.4rem;
 }
 
-.navbar-expand-lg .navbar-nav .nav-link,
-#user-nav-items {
-    padding-right: .8rem;
-    padding-left: .8rem;
+.page-header p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ------------------- FONT COLORS --- */
+
+#navbar-menu-items a,
+.footer-text p,
+.footer-icons i{
+    color: #ffe6a7;
+}
+
+.page-header h1,
+.page-header p {
+    color: #432818;
+}
+
+/* ------------------- NAVBAR / FOOTER --- */
+
+.header-container,
+.footer-container {
+    padding-left: 40px;
 }
 
 /* from Bulma */
@@ -41,21 +56,60 @@ header {
     width: 1.5rem;
 }
 
+/* --- navbar specific --- */
+
+#logo {
+    padding-top: 10px;
+}
+
+#navbar-menu-items a {
+    font-size: 1.4rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link,
+#user-nav-items,
+.footer-icons {
+    padding-right: .8rem;
+    padding-left: .8rem;
+}
+
+/* --- footer specific --- */
+
+.footer-text {
+    text-align: center;
+}
+
+.footer-text p {
+    margin: 0;
+}
+
+.footer-text-margin {
+    margin-bottom: 20px !important;
+}
+
+.newsletter-cta,
+.footer-text-bold {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+/* -- SOCIAL MEDIA ICONS -- */
+.footer-icons i {
+    font-size: 1.6rem;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+/* ------------ Social media icon padding */
+.footer-socials,
+.socials {
+    padding: 0 10px 0;
+}
+
 /* ------------------- PAGE HEADER --- */
 
 .page-header {
     padding: 20px 0;
-}
-
-.page-header h1 {
-    font-family: 'Raleway', sans-serif;
-}
-
-.page-header p {
-    font-family: 'Montserrat', sans-serif;
-}
-
-.page-header h1,
-.page-header p {
-    color: #432818;
 }
