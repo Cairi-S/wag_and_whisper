@@ -2,15 +2,28 @@ html {
     height: 100%;
 }
 
-body {
+main {
     height: calc(100vh-200px);
 }
 
 header {
     background-color: #6f1d1b;
     height: 200px;
+    padding: 0 0 0 0;
 }
 
 #logo {
     padding-top: 10px;
+}
+
+#navbar-menu-items a{
+    font-family: 'Raleway', sans-serif;
+    color: #ffe6a7;
+    font-size: 1.4rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link,
+#user-nav-items {
+    padding-right: .8rem;
+    padding-left: .8rem;
 }
