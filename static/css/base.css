@@ -3,7 +3,9 @@ html {
 }
 
 main {
-    height: calc(100vh-200px);
+    margin-top: 200px;
+    height: calc(100vh - 200px);
+    background-color: #F6F2EA;
 }
 
 header {
@@ -11,6 +13,8 @@ header {
     height: 200px;
     padding: 0 0 0 0;
 }
+
+/* ------------------- NAVBAR --- */
 
 #logo {
     padding-top: 10px;
@@ -26,4 +30,32 @@ header {
 #user-nav-items {
     padding-right: .8rem;
     padding-left: .8rem;
+}
+
+/* from Bulma */
+.icon {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+/* ------------------- PAGE HEADER --- */
+
+.page-header {
+    padding: 20px 0;
+}
+
+.page-header h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.page-header p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.page-header h1,
+.page-header p {
+    color: #432818;
 }
