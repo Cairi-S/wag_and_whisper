@@ -1,0 +1,16 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: calc(100vh-200px);
+}
+
+header {
+    background-color: #6f1d1b;
+    height: 200px;
+}
+
+#logo {
+    padding-top: 10px;
+}
